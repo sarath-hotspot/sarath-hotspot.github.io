@@ -12,7 +12,7 @@ A collection of professional and personal projects spanning distributed systems,
 
 ---
 
-<details open markdown="1">
+<details markdown="1">
 <summary><h2 style="display:inline">Professional Projects</h2></summary>
 
 ### Microsoft Teams Events
@@ -90,7 +90,7 @@ Reduced trading order placement latency from 1800µs to 800µs in D.E. Shaw's hi
 
 ---
 
-<details open markdown="1">
+<details markdown="1">
 <summary><h2 style="display:inline">Personal Projects</h2></summary>
 
 ### CreativeCubs — Gold App
