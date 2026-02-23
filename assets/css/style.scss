@@ -15,60 +15,22 @@ body {
 
 /* --- Wrapper / Layout --- */
 .wrapper {
-  max-width: 960px;
+  max-width: 1100px;
+  width: 90%;
 }
 
-/* --- Sidebar Header --- */
+/* --- Hide Sidebar --- */
 header {
-  background: transparent;
-  border-right: 1px solid #1e293b;
+  display: none;
 }
 
-header h1 {
-  color: #f1f5f9;
-  font-size: 1.6rem;
-  letter-spacing: -0.02em;
-}
-
-header p {
-  color: #94a3b8;
-}
-
-header p.view {
-  color: #94a3b8;
-}
-
-header p.view a {
-  color: #3b82f6;
-}
-
-header p.view a:hover {
-  color: #60a5fa;
-}
-
-header ul {
-  list-style: none;
+section {
+  width: 100% !important;
+  float: none !important;
   padding: 0;
 }
 
-header ul li {
-  background: transparent;
-  border: 1px solid #1e293b;
-  border-radius: 6px;
-  margin-bottom: 6px;
-}
 
-header ul li a {
-  color: #94a3b8;
-}
-
-header ul li a:hover {
-  color: #f1f5f9;
-}
-
-header ul li a strong {
-  color: #e2e8f0;
-}
 
 /* --- Main Content Section --- */
 section {
