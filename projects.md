@@ -12,7 +12,8 @@ A collection of professional and personal projects spanning distributed systems,
 
 ---
 
-## Professional Projects
+<details open>
+<summary><h2 style="display:inline">Professional Projects</h2></summary>
 
 ### Microsoft Teams Events
 **Microsoft** · *Hyperscale*
@@ -85,9 +86,12 @@ Reduced trading order placement latency from 1800µs to 800µs in D.E. Shaw's hi
 
 `Low-Latency Systems` `HFT Infrastructure` `Memory Optimization` `Java/C++`
 
+</details>
+
 ---
 
-## Personal Projects
+<details open>
+<summary><h2 style="display:inline">Personal Projects</h2></summary>
 
 ### CreativeCubs — Gold App
 *Startup · AI/ML*
@@ -139,6 +143,8 @@ Contributed to the Zcash cryptocurrency project — a privacy-focused digital cu
 Built an automated arbitrage detection and execution system for cryptocurrency price discrepancies across Indian exchanges. Monitored real-time price feeds across multiple exchanges and executed cross-exchange trades to capture spreads.
 
 `Trading Systems` `Real-time Data` `Python` `Exchange APIs`
+
+</details>
 
 ---
 
