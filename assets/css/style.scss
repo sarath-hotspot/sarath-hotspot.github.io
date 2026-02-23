@@ -11,17 +11,120 @@
 body {
   background-color: #0f172a;
   color: #cbd5e1;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Top Navigation Bar --- */
+.top-nav {
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 0 24px;
+}
+
+.nav-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none !important;
+  color: #f1f5f9;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-brand:hover {
+  text-decoration: none !important;
+  color: #f1f5f9;
+}
+
+.nav-initials {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: white;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.nav-name {
+  color: #f1f5f9;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-link {
+  color: #94a3b8 !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f1f5f9 !important;
+  background: #1e293b;
+  text-decoration: none !important;
+}
+
+.nav-link.active {
+  color: #3b82f6 !important;
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #94a3b8;
+  border-radius: 2px;
+  transition: 0.2s;
 }
 
 /* --- Wrapper / Layout --- */
 .wrapper {
   max-width: 1100px;
   width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
-/* --- Hide Sidebar --- */
+/* --- Hide theme's default sidebar --- */
 header {
-  display: none;
+  display: none !important;
 }
 
 section {
@@ -233,9 +336,34 @@ footer a:hover {
 }
 
 /* --- Responsive tweaks --- */
-@media print, screen and (max-width: 960px) {
-  header {
-    border-right: none;
+@media print, screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #0f172a;
     border-bottom: 1px solid #1e293b;
+    flex-direction: column;
+    padding: 12px 24px;
+    gap: 4px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-name {
+    display: none;
+  }
+
+  .wrapper {
+    width: 95%;
+    padding-top: 24px;
   }
 }
