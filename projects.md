@@ -17,7 +17,7 @@ A collection of professional and personal projects spanning distributed systems,
 ### Microsoft Teams Events
 **Microsoft** · *Hyperscale*
 
-Architected and scaled the Microsoft Teams Events chat platform, one of the fastest-growing features in Teams. Designed for massive concurrency supporting millions of simultaneous event participants with real-time chat capabilities.
+Architected and scaled the Microsoft Teams Events chat platform, one of the fastest-growing features in Teams. Designed for massive concurrency supporting 100K event participants with real-time chat capabilities in single townhall.
 
 > 💰 ~$100M business impact &nbsp;·&nbsp; 👥 Millions of users
 
@@ -87,15 +87,6 @@ Reduced trading order placement latency from 1800µs to 800µs in D.E. Shaw's hi
 
 ---
 
-### Warehouse Scaling
-**Amazon** · *Hyperscale*
-
-Contributed to Amazon's warehouse management scaling initiatives, optimizing fulfillment center operations and inventory management systems for peak throughput during high-demand periods.
-
-`AWS` `Distributed Systems` `Operations Optimization`
-
----
-
 ## Personal Projects
 
 ### CreativeCubs — Gold App
@@ -105,29 +96,31 @@ Founded CreativeCubs and built an Android gold price tracking & forecasting appl
 
 > 👥 300K+ MAU
 
-🔗 [Play Store](https://play.google.com/store/apps/details?id=com.creativecubs.gold) &nbsp;·&nbsp; [Website](https://www.creativecubs.com)
+🔗 [Play Store](https://play.google.com/store/apps/details?id=org.chittu.gold) &nbsp;·&nbsp; [Website](https://indiagoldpriceapp.com/)
 
 `Android` `ML Forecasting` `Backend Architecture` `Product Design`
 
 ---
 
 ### Clanaway
-*Startup*
+*Startup · AI*
 
-A community-focused platform connecting people through shared interests and local groups. Built the full-stack application with scalable backend infrastructure and user-centric mobile interface.
+A trip planning app for groups of friends to coordinate and plan trips together. Features an AI trip assistant powered by OpenAI APIs that helps plan trip itineraries, with tool integration for itinerary actions like scheduling, and recommendations.
 
-🔗 [Play Store](https://play.google.com/store/apps/details?id=com.clanaway) &nbsp;·&nbsp; [Website](https://www.clanaway.com)
+🔗 [App Store](https://apps.apple.com/us/app/clan-away-group-trip-helper/id6738758284) &nbsp;·&nbsp; [Website](https://app.clanaway.com/)
 
-`Mobile App` `Full Stack` `Community Platform`
+`Mobile App` `OpenAI APIs` `AI Assistant` `Tool Integration` `Full Stack`
 
 ---
 
 ### AI Dad Jokes
-*AI/ML · Fun*
+*AI · Fun*
 
-An AI-powered dad joke generator using large language models. Generates contextual, family-friendly humor with fine-tuned models trained on curated joke datasets. A fun exploration of creative AI applications.
+A visual dad jokes app that takes existing funny jokes and generates visual representations of them using AI. Combines humor with AI-generated imagery to bring dad jokes to life in a fun, shareable format.
 
-`LLM` `NLP` `Fine-tuning` `Python`
+🔗 [App Store](https://apps.apple.com/us/app/joke-a-day/id6736678054)
+
+`AI Image Generation` `Visual Content` `Python`
 
 ---
 
@@ -146,15 +139,6 @@ Contributed to the Zcash cryptocurrency project — a privacy-focused digital cu
 Built an automated arbitrage detection and execution system for cryptocurrency price discrepancies across Indian exchanges. Monitored real-time price feeds across multiple exchanges and executed cross-exchange trades to capture spreads.
 
 `Trading Systems` `Real-time Data` `Python` `Exchange APIs`
-
----
-
-### Deep Learning Nanodegree — Udacity
-*AI/ML · Certification*
-
-Completed the Deep Learning Nanodegree from Udacity covering neural networks, convolutional networks, recurrent networks, generative adversarial networks, and deploying models at scale.
-
-`Deep Learning` `PyTorch` `CNNs` `RNNs` `GANs`
 
 ---
 
