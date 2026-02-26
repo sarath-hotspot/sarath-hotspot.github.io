@@ -25,6 +25,7 @@ Proven record of delivering **$100M+ business impact**, scaling systems to **100
 | **Event-Driven Architecture** | Streaming architectures, real-time data pipelines |
 | **High-Performance Systems** | Low-latency design, memory optimization, throughput scaling |
 | **Technical Leadership** | Cross-team execution, architecture reviews, mentoring |
+| **Coding** | C#, Java, C++, Python, TypeScript, Android, React
 
 ---
 
