@@ -165,7 +165,7 @@ Built on-chain coin arbitrage system on the Solana network. Developed new smart 
 ### SPY LEAP Options Strategy
 *Quantitative Finance*
 
-Analyzed and built a long-term investment strategy using SPY LEAP options. Conducted deep analysis of options pricing, volatility surfaces, and risk profiles to construct optimized LEAP positions for sustained returns.
+Analyzed and built a long-term investment strategy using SPY LEAP options. Conducted deep analysis of options pricing, to construct optimized LEAP positions for sustained returns.
 
 🔗 [Backtest Results](https://www.quantconnect.cloud/backtest/ee9a7aec98e04469dc7b328ae71003f1/?theme=darkly) &nbsp;·&nbsp; [Analysis Document](https://docs.google.com/document/d/19rYie1x8gU-CBWogfko_Oz9vKora1cldZzIxzZZ6dcQ/edit?usp=sharing)
 
