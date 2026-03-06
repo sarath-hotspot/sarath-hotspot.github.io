@@ -149,7 +149,7 @@ Built an automated arbitrage detection and execution system for cryptocurrency p
 ---
 
 <details markdown="1">
-<summary><h2 style="display:inline">Quant / Trading</h2></summary>
+<summary><h2 style="display:inline">Quant / Trading projects</h2></summary>
 
 ### On-Chain Coin Arbitrage — Solana
 *Crypto · DeFi*
