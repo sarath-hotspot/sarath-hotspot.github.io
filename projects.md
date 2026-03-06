@@ -148,6 +148,33 @@ Built an automated arbitrage detection and execution system for cryptocurrency p
 
 ---
 
+<details markdown="1">
+<summary><h2 style="display:inline">Quant / Trading</h2></summary>
+
+### On-Chain Coin Arbitrage — Solana
+*Crypto · DeFi*
+
+Built on-chain coin arbitrage system on the Solana network. Developed new smart contracts in Rust to detect and execute arbitrage opportunities across decentralized exchanges with minimal latency.
+
+🔗 [GitHub](https://github.com/sarath-hotspot/QuantProjects/tree/main/SolanaArb)
+
+`Solana` `Rust` `Smart Contracts` `DeFi` `Arbitrage`
+
+---
+
+### SPY LEAP Options Strategy
+*Quantitative Finance*
+
+Analyzed and built a long-term investment strategy using SPY LEAP options. Conducted deep analysis of options pricing, volatility surfaces, and risk profiles to construct optimized LEAP positions for sustained returns.
+
+🔗 [Backtest Results](https://www.quantconnect.cloud/backtest/ee9a7aec98e04469dc7b328ae71003f1/?theme=darkly) &nbsp;·&nbsp; [Analysis Document](https://docs.google.com/document/d/19rYie1x8gU-CBWogfko_Oz9vKora1cldZzIxzZZ6dcQ/edit?usp=sharing)
+
+`Options Trading` `LEAP Strategy` `Quantitative Analysis` `SPY`
+
+</details>
+
+---
+
 <p align="center">
   <a href="/">⬅️ <strong>Back to About</strong></a>
 </p>

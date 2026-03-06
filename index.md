@@ -20,12 +20,12 @@ Proven record of delivering **$100M+ business impact**, scaling systems to **100
 | Domain | Details |
 |--------|---------|
 | **Distributed Systems** | Architecture & Scalability (100K+ TPS, sub-millisecond latency) |
-| **AI & Agentic Systems** | Multimodal AI, Copilot integrations, AI Orchestration |
+| **AI & Agentic Systems** | Multimodal AI, Copilot integrations, AI Orchestration, RAG, Deep Learning |
 | **Cloud Platforms** | Azure, AWS — hyperscale cloud architecture |
 | **Event-Driven Architecture** | Streaming architectures, real-time data pipelines |
 | **High-Performance Systems** | Low-latency design, memory optimization, throughput scaling |
 | **Technical Leadership** | Cross-team execution, architecture reviews, mentoring |
-| **Coding** | C#, Java, C++, Python, TypeScript, Android, React
+| **Coding** | C#, Java, C++, Python, TypeScript, Android, React, Rust
 
 ---
 
