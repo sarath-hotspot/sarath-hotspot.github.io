@@ -5,7 +5,7 @@ title: Venkata Sarath Chitta
 
 ## About Me
 
-Principal Software Engineer and Distributed Systems Architect with **20+ years** of experience building ultra-scalable, low-latency, cloud-native systems and AI-powered platforms. Expert in distributed systems architecture, AI orchestration, agentic systems, and hyperscale cloud platforms.
+Experienced Principal Software Engineer and Distributed Systems Architect with experience in building ultra-scalable, low-latency, cloud-native systems and AI-powered platforms. Expert in distributed systems architecture, AI orchestration, agentic systems, and hyperscale cloud platforms.
 
 Proven record of delivering **$100M+ business impact**, scaling systems to **100K+ TPS**, and leading cross-organizational initiatives.
 
