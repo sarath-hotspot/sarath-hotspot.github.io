@@ -2,12 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=https://sarathchitta.github.io">
+  <meta http-equiv="refresh" content="3; url=https://sarathchitta.github.io">
   <link rel="canonical" href="https://sarathchitta.github.io">
   <title>Redirecting…</title>
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4P386SG51Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4P386SG51Q');
+  </script>
 </head>
 <body>
   <p>Redirecting to <a href="https://sarathchitta.github.io">sarathchitta.github.io</a>…</p>
-  <script>window.location.replace("https://sarathchitta.github.io");</script>
+  <script>
+    gtag('event', 'redirect', {
+      event_category: 'navigation',
+      event_label: 'sarath-hotspot to sarathchitta',
+      transport_type: 'beacon'
+    });
+    // Small delay to allow the analytics event to be sent before redirecting
+    setTimeout(function() {
+      window.location.replace("https://sarathchitta.github.io");
+    }, 200);
+  </script>
 </body>
 </html>
